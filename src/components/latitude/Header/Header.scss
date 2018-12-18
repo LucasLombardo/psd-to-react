@@ -1,0 +1,39 @@
+#Header {
+  background: linear-gradient(rgba(58, 63, 83, 0.3), rgba(58, 63, 83, 0.3)),
+    url(../_assets/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 13.2rem 2rem 10rem 2rem;
+  #content {
+    text-align: center;
+    h1 {
+      font-size: 33px;
+      font-weight: 700;
+      margin: 1rem 0;
+    }
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #b8bfc2;
+      font-size: 15px;
+      letter-spacing: 0.2px;
+      margin-top: 1.8rem;
+    }
+  }
+  @media only screen and (max-width: 1280px) {
+    padding: 11rem 2rem 8rem 2rem;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 5rem 1rem 4rem 1rem;
+    #content {
+      h1 {
+        font-size: 22px;
+      }
+      p {
+        margin-top: 1.2rem;
+      }
+    }
+  }
+}

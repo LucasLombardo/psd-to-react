@@ -1,0 +1,17 @@
+.button {
+  background: rgba(0, 0, 0, 0);
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  padding: 0.4rem;
+  color: #575d60;
+  font-weight: 700;
+  border: 2px solid #e8eaeb;
+  margin-bottom: 1rem;
+  width: 200px;
+  height: 56px;
+  transition: 0.3s;
+  &:hover {
+    background-color: #f0f1f1;
+    cursor: pointer;
+  }
+}
