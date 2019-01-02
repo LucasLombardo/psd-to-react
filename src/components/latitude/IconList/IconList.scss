@@ -1,0 +1,35 @@
+#IconList {
+  max-width: 350px;
+  ul {
+    list-style: none;
+  }
+  h2 {
+    font-size: 1.8rem;
+    color: #575d60;
+    line-height: 3.3rem;
+    font-weight: 700;
+  }
+  p,
+  li {
+    font-size: 0.95rem;
+    margin-right: 3rem;
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #828487;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    margin: 2em 0;
+  }
+  svg {
+    color: #fff;
+    background-color: #f4715c;
+    width: 16px;
+    height: 16px;
+    padding: 6px;
+    margin-bottom: -5px;
+    margin-right: 15px;
+  }
+}

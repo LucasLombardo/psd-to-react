@@ -1,9 +1,17 @@
 import React from 'react'
-import Aside from '../Aside/Aside'
+import IconList from '../IconList/IconList'
 
 const MainContent = () => (
   <div>
-    <Aside />
+    <section id="section-one">
+      <IconList />
+    </section>
+    <section id="section-two">
+      <div>2</div>
+    </section>
+    <section id="section-three">
+      <div>3</div>
+    </section>
   </div>
 )
 
