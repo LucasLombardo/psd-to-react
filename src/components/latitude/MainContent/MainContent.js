@@ -60,8 +60,35 @@ const MainContent = () => (
           urna dolor est sagittis purus, in laoreet.
         </Thumbnail>
       </section>
+      <hr />
       <section id="section-three">
-        <div>3</div>
+        <h2>Dolore rutrum arcu nullam ultricies</h2>
+        <p class="sub">Lorem ipsum dolor sit amet veroeros</p>
+        <p>
+          Phasellus dapibus convallis scelerisque. Donec tempus augue id tortor
+          ultricies eget pellentesque turpis ultrices. Vestibulum ut nulla sem,
+          vel iaculis arcu. Nulla vel lorem nisl, quis ultricies tellus. Nunc
+          imperdiet elit sed dolore lacus venenatis rutrum. Vivamus vulputate
+          urna dolor est sagittis purus, in laoreet.
+        </p>
+        <div class="img-grid">
+          <Thumbnail imgSrc={pic06}>
+            <strong>Phasellus convallis</strong> scelerisque et amet donec
+            tellus lorem ipsum.
+          </Thumbnail>
+          <Thumbnail imgSrc={pic07}>
+            <strong>Phasellus convallis</strong> scelerisque et amet donec
+            tellus lorem ipsum.
+          </Thumbnail>
+          <Thumbnail imgSrc={pic08}>
+            <strong>Phasellus convallis</strong> scelerisque et amet donec
+            tellus lorem ipsum.
+          </Thumbnail>
+          <Thumbnail imgSrc={pic09}>
+            <strong>Phasellus convallis</strong> scelerisque et amet donec
+            tellus lorem ipsum.
+          </Thumbnail>
+        </div>
       </section>
     </Container>
   </div>
