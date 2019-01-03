@@ -1,0 +1,107 @@
+#Nav {
+  width: 100%;
+  display: flex;
+  .links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b8bfc2;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    margin: 2.5em 1em 1em 1em;
+    transition: 0.3s;
+    &:hover {
+      color: #fff;
+    }
+  }
+  &.absolute {
+    position: absolute;
+    .home-link {
+      display: none;
+    }
+  }
+  &.fixed {
+    position: fixed;
+    background: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    a {
+      margin: 1em;
+      color: #7e8487;
+      &:first-of-type {
+        font-weight: 600;
+        color: #575d60;
+        margin-right: auto;
+      }
+      &:hover {
+        color: #f4715c;
+      }
+    }
+  }
+  .hamburger {
+    display: none;
+    margin: 6px;
+    button {
+      background: rgba(0, 0, 0, 0.3);
+      border: none;
+      width: 36px;
+      height: 30px;
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    width: fit-content;
+    .links {
+      display: block;
+      flex-direction: column;
+      background: #2c3437;
+      height: 100vh;
+      width: 260px;
+      overflow-y: auto;
+      transform: translateX(-260px);
+      transition: 0.4s;
+      .home-link:first-of-type {
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+      a {
+        display: none;
+        color: #eee;
+        margin: 0 1em;
+        border-top: 1px solid #444;
+        padding: 18px 0;
+        &:hover {
+          color: #f4715c;
+        }
+      }
+    }
+    &.absolute {
+      position: fixed;
+    }
+    &.fixed {
+      background: none;
+      box-shadow: none;
+    }
+    .hamburger {
+      display: inline-block;
+      transform: translateX(-260px);
+      transition: 0.4s;
+    }
+    &.open {
+      .links {
+        transform: translateX(0);
+        a {
+          display: block;
+        }
+      }
+      .hamburger {
+        transform: translateX(0);
+      }
+    }
+  }
+}

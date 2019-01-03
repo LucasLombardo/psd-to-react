@@ -6,9 +6,21 @@ import Aside from './Aside/Aside'
 import MainContent from './MainContent/MainContent'
 import Footer from './Footer/Footer'
 
+const navLinks = [
+  { text: 'Home', href: '#' },
+  { text: 'Link One', href: '#' },
+  { text: 'Link Two', href: '#' },
+  { text: 'Link Three', href: '#' },
+  { text: 'Link Four', href: '#' },
+]
+
 const Latitude = () => (
   <div id="main">
-    {/* <Nav /> */}
+    <Nav
+      navLinks={navLinks}
+      fixedBelowId="#Aside"
+      homeLink={{ text: 'Latitude', href: '#' }}
+    />
     <Header />
     <Aside />
     <MainContent />
