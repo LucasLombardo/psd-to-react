@@ -3,17 +3,6 @@ import IconList from '../IconList/IconList'
 import Thumbnail from '../Thumbnail/Thumbnail'
 import Container from '../Container/Container'
 import './MainContent.scss'
-import {
-  pic01,
-  pic02,
-  pic03,
-  pic04,
-  pic05,
-  pic06,
-  pic07,
-  pic08,
-  pic09,
-} from '../_assets/index.js'
 
 const MainContent = () => (
   <div id="MainContent">
@@ -22,7 +11,7 @@ const MainContent = () => (
         <IconList />
         <div className="thumbnail-grid">
           <Thumbnail
-            imgSrc={pic01}
+            imgSrc="https://imagizer.imageshack.com/a/img923/8674/otdV0o.jpg"
             head="Nullam arcu consequat"
             btn="Learn More"
           >
@@ -30,7 +19,7 @@ const MainContent = () => (
             sed amet ultrices vestibulum nulla.
           </Thumbnail>
           <Thumbnail
-            imgSrc={pic02}
+            imgSrc="https://imagizer.imageshack.com/a/img921/7577/8zMnyO.jpg"
             head="Nullam arcu consequat"
             btn="Learn More"
           >
@@ -38,7 +27,7 @@ const MainContent = () => (
             sed amet ultrices vestibulum nulla.
           </Thumbnail>
           <Thumbnail
-            imgSrc={pic03}
+            imgSrc="https://imagizer.imageshack.com/a/img921/238/wLVW9C.jpg"
             head="Nullam arcu consequat"
             btn="Learn More"
           >
@@ -50,7 +39,7 @@ const MainContent = () => (
       <hr />
       <section id="section-two">
         <Thumbnail
-          imgSrc={pic04}
+          imgSrc="https://imagizer.imageshack.com/a/img922/4859/GAmsHp.jpg"
           head="Feugiat phasellus sed consequat"
           subHead="Lorem ipsum dolor sit amet veroeros"
           btn="Learn More"
@@ -62,7 +51,7 @@ const MainContent = () => (
           urna dolor est sagittis purus, in laoreet.
         </Thumbnail>
         <Thumbnail
-          imgSrc={pic05}
+          imgSrc="https://imagizer.imageshack.com/a/img922/8122/m45ivC.jpg"
           head="Dapibus lorem luctus volutpat rutrum"
           subHead="Lorem ipsum dolor sit amet veroeros"
           btn="Learn More"
@@ -86,19 +75,19 @@ const MainContent = () => (
           urna dolor est sagittis purus, in laoreet.
         </p>
         <div className="img-grid">
-          <Thumbnail imgSrc={pic06}>
+          <Thumbnail imgSrc="https://imagizer.imageshack.com/a/img923/7903/tzQQcG.jpg">
             <strong>Phasellus convallis</strong> scelerisque et amet donec
             tellus lorem ipsum.
           </Thumbnail>
-          <Thumbnail imgSrc={pic07}>
+          <Thumbnail imgSrc="https://imagizer.imageshack.com/a/img922/6107/kqfJwe.jpg">
             <strong>Phasellus convallis</strong> scelerisque et amet donec
             tellus lorem ipsum.
           </Thumbnail>
-          <Thumbnail imgSrc={pic08}>
+          <Thumbnail imgSrc="https://imagizer.imageshack.com/a/img922/7870/v62MDc.jpg">
             <strong>Phasellus convallis</strong> scelerisque et amet donec
             tellus lorem ipsum.
           </Thumbnail>
-          <Thumbnail imgSrc={pic09}>
+          <Thumbnail imgSrc="https://imagizer.imageshack.com/a/img922/615/jMIIPn.jpg">
             <strong>Phasellus convallis</strong> scelerisque et amet donec
             tellus lorem ipsum.
           </Thumbnail>
