@@ -1,5 +1,5 @@
 import React from 'react'
-import './index.scss'
+import './Index.scss'
 import Nav from './Nav/Nav'
 import Header from './Header/Header'
 import Aside from './Aside/Aside'
