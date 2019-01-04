@@ -40,7 +40,7 @@ export default class Nav extends PureComponent {
     return (
       <nav id="Nav" className={fixedClass + ' ' + openClass}>
         <div className="links">
-          <a href={this.props.homeLink} class="home-link">
+          <a href={this.props.homeLink} className="home-link">
             Latitude
           </a>
           {this.props.navLinks.map(({ text, href }) => (

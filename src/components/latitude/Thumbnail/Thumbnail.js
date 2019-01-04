@@ -7,7 +7,7 @@ const Thumbnail = ({ imgSrc, imgAlt, head, subHead, children, btn }) => (
   <div className="Thumbnail">
     <img src={imgSrc} alt={imgAlt} title={imgAlt} />
     {head && <h3>{head}</h3>}
-    {subHead && <p class="sub">{subHead}</p>}
+    {subHead && <p className="sub">{subHead}</p>}
     {children && <p>{children}</p>}
     {btn && <Button>{btn}</Button>}
   </div>
@@ -25,7 +25,7 @@ Thumbnail.propTypes = {
   imgAlt: PropTypes.string,
   head: PropTypes.string,
   subHead: PropTypes.string,
-  children: PropTypes.string,
+  children: PropTypes.any,
   btn: PropTypes.string,
 }
 

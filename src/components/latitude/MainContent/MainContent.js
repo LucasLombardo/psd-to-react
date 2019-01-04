@@ -77,7 +77,7 @@ const MainContent = () => (
       <hr />
       <section id="section-three">
         <h2>Dolore rutrum arcu nullam ultricies</h2>
-        <p class="sub">Lorem ipsum dolor sit amet veroeros</p>
+        <p className="sub">Lorem ipsum dolor sit amet veroeros</p>
         <p>
           Phasellus dapibus convallis scelerisque. Donec tempus augue id tortor
           ultricies eget pellentesque turpis ultrices. Vestibulum ut nulla sem,
@@ -85,7 +85,7 @@ const MainContent = () => (
           imperdiet elit sed dolore lacus venenatis rutrum. Vivamus vulputate
           urna dolor est sagittis purus, in laoreet.
         </p>
-        <div class="img-grid">
+        <div className="img-grid">
           <Thumbnail imgSrc={pic06}>
             <strong>Phasellus convallis</strong> scelerisque et amet donec
             tellus lorem ipsum.
