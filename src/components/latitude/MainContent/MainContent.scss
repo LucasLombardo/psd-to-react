@@ -2,12 +2,45 @@
   #section-one {
     display: flex;
     padding: 6em 0 4em 0;
-    & > div {
-      margin-left: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    #IconList {
       flex: 1;
     }
-    & > div:first-of-type {
-      margin-left: 0;
+    .thumbnail-grid {
+      flex: 3;
+      display: flex;
+      margin: 0 -14px;
+      & > div {
+        margin: 0 14px;
+      }
+    }
+    @media only screen and (max-width: 1024px) {
+      padding: 4em 0;
+      // break icon list into seperate row
+      #IconList,
+      .thumbnail-grid {
+        flex: 0 0 100%;
+      }
+      #IconList {
+        text-align: center;
+        p {
+          margin: 0;
+        }
+      }
+    }
+    @media only screen and (max-width: 740px) {
+      padding: 2em 0 3em 0;
+      // break thumbnails into seperate rows
+      .thumbnail-grid {
+        flex-wrap: wrap;
+        & > div {
+          margin: 1em 0;
+          p {
+            margin-right: 0;
+          }
+        }
+      }
     }
   }
   hr {
@@ -15,6 +48,7 @@
   }
   #section-two {
     display: flex;
+    flex-wrap: wrap;
     padding: 4em 0;
     & > div {
       margin-left: 2em;
@@ -22,6 +56,17 @@
     }
     & > div:first-of-type {
       margin-left: 0;
+    }
+    @media only screen and (max-width: 800px) {
+      padding: 2em 0;
+      // break thumbnails into seperate rows
+      & > div {
+        flex: 0 0 100%;
+        margin: 2em 0;
+        p {
+          margin-right: 0;
+        }
+      }
     }
   }
   #section-three {
@@ -52,6 +97,8 @@
     }
     .img-grid {
       display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
       & > div {
         margin-left: 2em;
         flex: 1;
@@ -61,6 +108,20 @@
       }
       p {
         margin: 2em 0;
+      }
+      @media only screen and (max-width: 800px) {
+        & > div,
+        & > div:first-of-type {
+          flex: 43%;
+          margin: 2em 1em;
+        }
+      }
+      @media only screen and (max-width: 530px) {
+        & > div,
+        & > div:first-of-type {
+          flex: 100%;
+          margin: 1em 0;
+        }
       }
     }
   }

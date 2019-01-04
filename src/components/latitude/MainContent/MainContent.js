@@ -20,18 +20,32 @@ const MainContent = () => (
     <Container>
       <section id="section-one">
         <IconList />
-        <Thumbnail imgSrc={pic01} head="Nullam arcu consequat" btn="Learn More">
-          Phasellus dapibus sed convallis feugiat ipsum. Donec tesque turpis sed
-          amet ultrices vestibulum nulla.
-        </Thumbnail>
-        <Thumbnail imgSrc={pic02} head="Nullam arcu consequat" btn="Learn More">
-          Phasellus dapibus sed convallis feugiat ipsum. Donec tesque turpis sed
-          amet ultrices vestibulum nulla.
-        </Thumbnail>
-        <Thumbnail imgSrc={pic03} head="Nullam arcu consequat" btn="Learn More">
-          Phasellus dapibus sed convallis feugiat ipsum. Donec tesque turpis sed
-          amet ultrices vestibulum nulla.
-        </Thumbnail>
+        <div className="thumbnail-grid">
+          <Thumbnail
+            imgSrc={pic01}
+            head="Nullam arcu consequat"
+            btn="Learn More"
+          >
+            Phasellus dapibus sed convallis feugiat ipsum. Donec tesque turpis
+            sed amet ultrices vestibulum nulla.
+          </Thumbnail>
+          <Thumbnail
+            imgSrc={pic02}
+            head="Nullam arcu consequat"
+            btn="Learn More"
+          >
+            Phasellus dapibus sed convallis feugiat ipsum. Donec tesque turpis
+            sed amet ultrices vestibulum nulla.
+          </Thumbnail>
+          <Thumbnail
+            imgSrc={pic03}
+            head="Nullam arcu consequat"
+            btn="Learn More"
+          >
+            Phasellus dapibus sed convallis feugiat ipsum. Donec tesque turpis
+            sed amet ultrices vestibulum nulla.
+          </Thumbnail>
+        </div>
       </section>
       <hr />
       <section id="section-two">
