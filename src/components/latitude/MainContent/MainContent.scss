@@ -33,12 +33,16 @@
       padding: 2em 0 3em 0;
       // break thumbnails into seperate rows
       .thumbnail-grid {
+        margin-top: 1em;
         flex-wrap: wrap;
         & > div {
-          margin: 1em 0;
+          margin: 0.5em 0;
           p {
             margin-right: 0;
           }
+        }
+        .Thumbnail .button {
+          width: 100%;
         }
       }
     }
@@ -62,10 +66,13 @@
       // break thumbnails into seperate rows
       & > div {
         flex: 0 0 100%;
-        margin: 2em 0;
+        margin: 1em 0;
         p {
           margin-right: 0;
         }
+      }
+      .Thumbnail .button {
+        width: 100%;
       }
     }
   }

@@ -1,6 +1,8 @@
 #Nav {
   width: 100%;
   display: flex;
+  position: relative;
+  z-index: 2;
   .links {
     width: 100%;
     display: flex;
@@ -60,9 +62,9 @@
       flex-direction: column;
       background: #2c3437;
       height: 100vh;
-      width: 260px;
       overflow-y: auto;
-      transform: translateX(-260px);
+      transform: translateX(-1px);
+      width: 1px;
       transition: 0.4s;
       .home-link:first-of-type {
         color: #fff;
@@ -89,12 +91,13 @@
     }
     .hamburger {
       display: inline-block;
-      transform: translateX(-260px);
+      transform: translateX(-1px);
       transition: 0.4s;
     }
     &.open {
       .links {
         transform: translateX(0);
+        width: 260px !important;
         a {
           display: block;
         }

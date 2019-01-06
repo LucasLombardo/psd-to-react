@@ -31,6 +31,9 @@
     padding: 2rem 0 2.5rem 0;
     .sub-text {
       display: block;
+      p {
+        margin-right: 0;
+      }
       br {
         display: none;
       }
