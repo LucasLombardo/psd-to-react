@@ -1,0 +1,5 @@
+# Notes/Reflection
+
+I liked the workflow and folder structure of having components inside the same folder with their respective sass stylesheets. One adjustment I would make in the future is to get all of the structure and content into a page before doing any significant styling. There were several things I styled at the component level that would have made more sense and been DRYer if I styled them on the global level, and this would be easier to predict if I had got all of the content in before styling.
+
+Another takeaway from this project is that during the early stages it makes more sense to focus less on making everything perfect and more on getting a baseline finished product. At the start of the project, I was making one section of the page at a time and fully building that section out and styling it. Towards the end of the project I got a baseline section finished first and went back at the end and did things like adding media queries for responsiveness and adjusting typography. For me this workflow was much faster since I was batching alike tasks.
