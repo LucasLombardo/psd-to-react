@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Thumbnail = ({ title, src, children }) => (
-  <div className="Thumbnail">
+  <div className="thumbnail">
     <img src={src} alt={title} />
     <div>
       <h3>{title}</h3>

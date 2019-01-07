@@ -7,13 +7,15 @@ import Contact from '../Contact/Contact'
 
 const Main = () => (
   <main className="main">
-    <img
-      src="https://imagizer.imageshack.com/a/img924/7096/inAlux.jpg"
-      alt="mountains"
-    />
+    <div className="header-bg">
+      <div className="header-img" />
+    </div>
     <Header />
+    <hr />
     <Skills />
+    <hr />
     <Accomplishments />
+    <hr />
     <Contact />
     <footer>
       <p>© Untitled. All rights reserved.</p>

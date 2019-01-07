@@ -1,2 +1,18 @@
 .main {
+  // header background
+  .header-bg {
+    background: #666;
+  }
+  .header-img {
+    background: url(https://imagizer.imageshack.com/a/img924/7096/inAlux.jpg)
+      no-repeat center center;
+    background-size: cover;
+    height: 310px;
+    opacity: 0.7;
+  }
+  // dividers
+  hr {
+    color: #f4f4f4;
+    border: 3px solid #f4f4f4;
+  }
 }
