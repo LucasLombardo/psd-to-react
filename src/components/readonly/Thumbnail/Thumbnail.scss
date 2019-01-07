@@ -1,0 +1,27 @@
+.thumbnail {
+  padding: 2em 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #f4f4f4;
+  &:last-of-type {
+    border-bottom: none;
+  }
+  .img-wrapper {
+    flex: 2;
+    img {
+      width: 100%;
+      max-width: 334px;
+      border-radius: 6px;
+    }
+  }
+  .img-info {
+    flex: 3;
+    padding: 0 0 0 3em;
+    h3 {
+      margin-top: 0;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
