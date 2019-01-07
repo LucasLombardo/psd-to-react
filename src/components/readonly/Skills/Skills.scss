@@ -1,0 +1,31 @@
+.skills {
+  .container h2 {
+    margin-bottom: 0;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    columns: 2;
+  }
+  p {
+    margin-bottom: 2em;
+  }
+  .svg-inline--fa.fa-w-20,
+  .svg-inline--fa.fa-w-16,
+  .svg-inline--fa.fa-w-14,
+  .svg-inline--fa.fa-w-10,
+  svg {
+    color: #fff;
+    background-color: #4acaa8;
+    width: 18px;
+    height: 18px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 10px -12px 0;
+  }
+  li {
+    line-height: 3em;
+    font-size: 0.9em;
+    margin-bottom: 1.9em;
+  }
+}
