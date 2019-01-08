@@ -1,0 +1,14 @@
+.navlinks {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  a {
+    line-height: 3rem;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #5ccfb1;
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+}

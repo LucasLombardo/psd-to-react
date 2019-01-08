@@ -1,0 +1,13 @@
+.sociallinks {
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 2rem;
+  .svg-inline--fa.fa-w-16,
+  .svg-inline--fa.fa-w-14,
+  svg {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+}
