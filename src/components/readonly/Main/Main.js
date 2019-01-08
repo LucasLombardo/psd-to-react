@@ -4,6 +4,7 @@ import Header from '../Header/Header'
 import Skills from '../Skills/Skills'
 import Accomplishments from '../Accomplishments/Accomplishments'
 import Contact from '../Contact/Contact'
+import Container from '../Container/Container'
 
 const Main = () => (
   <main className="main">
@@ -18,7 +19,9 @@ const Main = () => (
     <hr />
     <Contact />
     <footer>
-      <p>© Untitled. All rights reserved.</p>
+      <Container>
+        <p>© Untitled. All rights reserved.</p>
+      </Container>
     </footer>
   </main>
 )
