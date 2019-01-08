@@ -40,4 +40,21 @@
     color: #888;
     line-height: 1.5rem;
   }
+  .btn {
+    background: #4acaa8;
+    color: #fff;
+    font-family: inherit;
+    border: none;
+    border-radius: 6px;
+    padding: 0.9rem 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: 0.2s;
+    &.secondary {
+      background: #989898;
+    }
+    &:hover {
+      opacity: 0.8;
+    }
+  }
 }
